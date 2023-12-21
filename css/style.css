@@ -19,3 +19,23 @@ img {
     GENERAL
 */
 
+.container {
+    width: 75%;
+    margin: 0 auto;
+}
+
+.img-container {
+    width: 800px;
+    height: 600px;
+}
+
+.img-container img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.debug .container {
+    border: 1px solid red;
+    min-height: 300px;
+}
